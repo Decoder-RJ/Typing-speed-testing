@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Speed Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Typing Speed Test</h1>
+        <p id="display-text" class="not-selectable">Click "Start Test" to begin typing...</p>
+        <textarea id="input-text" placeholder="Start typing here..." disabled ></textarea>
+        <div class="controls">
+            <button id="start-btn" onclick="startTest">Start Test</button>
+            <button id="reset-btn" onclick="resetTest">Reset</button>
+            <span id="timer">Remaining Time: 60s</span>
+            <span id="wpm">WPM: 0</span>
+            <span id="errors">Errors: 0</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

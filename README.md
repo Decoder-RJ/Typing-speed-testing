@@ -74,7 +74,7 @@
 </ul>
 
 <h2>Example Screenshot</h2>
-<img src="screenshot.png" alt="Typing Speed Tester Screenshot" width="100%">
+<img src="Typing speed.png" alt="Typing Speed Tester Screenshot" width="100%">
 
 <h2>Contributing</h2>
 <p>Feel free to submit issues or make pull requests for additional features or improvements.</p>
